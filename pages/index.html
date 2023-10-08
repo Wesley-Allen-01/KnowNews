@@ -1,32 +1,35 @@
-html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>kNOw News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kNOw News</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
+    <h1>kNOw News</h1>
 
-  <h1>kNOw News</h1>
+    <section>
+        <h2>My Interests</h2>
+        <form>
+            <label for="interests">Enter interests:</label>
+            <input type="text" id="interests" name="interests" placeholder="Separated by commas">
+        </form>
+    </section>
 
-  <h2>My Interests</h2>
-  
-  <form>
-    <label for="interests">Enter interests separated by commas:</label><br>
-    <input type="text" id="interests" name="interests"><br>
-  </form>
+    <section>
+        <h2>Article Links</h2>
+        <form>
+            <label for="article_links">Enter article links:</label>
+            <input type="text" id="article_links" name="article_links" placeholder="Separated by commas">
+        </form>
+    </section>
 
-  <h2>Article Links</h2>
-  
-  <form>
-    <label for="article_links">Enter article links separated by commas:</label><br> 
-    <input type="text" id="article_links" name="article_links"><br>
-  </form>
-
-  <h2>Articles</h2>
-  
-  <ul id="articles">
-  </ul>
-  
+    <section>
+        <h2>Articles</h2>
+        <ul id="articles">
+        </ul>
+    </section>
 </body>
 </html>
+
